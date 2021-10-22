@@ -299,6 +299,10 @@
     margin: auto;
     max-width: 64rem;
     width: 100%;
-    color: var(--white-200);
+    
+    p {
+      color: var(--white-200);
+    }
+
   }
 }
