@@ -29,5 +29,10 @@ export const constants = Object.freeze({
               <p>I am also learning leadership skills, and have taken up multiple places of responsibilites. In the Academic Year 2020-21, I was the General Secretary of <a href="https://communityofcoders.in/" target="_blank" rel="noopener noreferrer">Community Of Coders</a>, a community aimed at imparting knowledge and wisdom from seniors to juniors. I was also the Cloud Computing Co-Head at <a href="https://www.dscvjti.tech//" target="_blank" rel="noopener noreferrer">Google's Developer Student Clubs</a>, where I taught multiple concepts of Computer Networking and Cloud Computing.<\/p>\n
               <p>I am also the Student Placement Coordinator at TPO, VJTI, where we work closely with the on campus companies to ensure that all students leave the campus with a Job Offer in hand.</p>
               `
+  },
+  contact: {
+    title: "Contact Me",
+    introduction: "<p class=\"center\">Think we can make great things together?<strong><br \/><a href=\"mailto:shubhankar.gupto.11@gmail.com\">Let's get in touch!<\/a><\/strong><\/p>",
+    content: `<p class=\"center\"><strong>Shubhankar Gupta<\/strong><br \/><a href=\"mailto:shubhankar.gupto.11@gmail.com\">shubhankar.gupto.11@gmail.com&nbsp;<\/a><\/p>`
   }
 })

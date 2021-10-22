@@ -11,6 +11,7 @@
 import { defineComponent, ref } from '@vue/composition-api'
 import SPageTitle from '~/components/SPageTitle.vue'
 import SSocial from '~/components/SSocial.vue'
+import {constants} from '~/components/contents';
 
 export default defineComponent({
   name: 'Contact',
@@ -27,14 +28,8 @@ export default defineComponent({
   },
 
   async asyncData() {
-    const pages = await (
-      await fetch(
-        'https://portfolio.simonwuyts.eu/portfolio/items/pages?fields=*.*'
-      )
-    ).json()
-
     return {
-      page: pages.data.filter((page: any) => page.slug === 'contact')[0]
+      page: constants.contact
     }
   }
 })

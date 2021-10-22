@@ -64,7 +64,7 @@ export default {
   cache: true,
 
   head: {
-    titleTemplate: '%s - Simon Wuyts',
+    titleTemplate: '%s - Shubhankar Gupta',
     htmlAttrs: {
       lang: 'en'
     },
@@ -75,7 +75,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Interaction designer and front-end developer. Dreams in HTML, CSS and Javascript, lives in Ghent, Belgium. Helps other people build digital products.'
+          'Full stack web developer, specializing in the MERN Stack. In the lookout for learning new and robust technologies'
       },
       {
         property: 'og:type',
@@ -84,7 +84,7 @@ export default {
       {
         hid: 'ogtitle',
         property: 'og:title',
-        content: 'Simon Wuyts - Interaction Designer & Front-end Developer'
+        content: 'Shubhankar Gupta - Full Stack Web Developer'
       },
       {
         hid: 'ogimage',
