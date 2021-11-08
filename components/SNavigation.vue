@@ -14,13 +14,6 @@
         Home
       </nuxt-link>
       <nuxt-link
-        to="/work"
-        class="c-navigation__item"
-        active-class="c-navigation__item--active"
-      >
-        Work
-      </nuxt-link>
-      <nuxt-link
         to="/about"
         class="c-navigation__item"
         active-class="c-navigation__item--active"
