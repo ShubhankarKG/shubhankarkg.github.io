@@ -23,7 +23,7 @@
     "date-fns": "^2.7.0",
     "node-sass": "^4.13.0",
     "nuxt": "^2.13.2",
-    "prismjs": "^1.21.0"
+    "prismjs": "^1.25.0"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^1.0.3",
