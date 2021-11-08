@@ -67,7 +67,7 @@ export default {
   css: ['@/assets/scss/main.scss'],
 
   plugins: ['@/plugins/composition-api'],
-  modules: ['nuxt-svg-loader', '@nuxtjs/sitemap'],
+  modules: ['nuxt-svg-loader'],
   buildModules: ['@nuxt/typescript-build'],
 
   build: {

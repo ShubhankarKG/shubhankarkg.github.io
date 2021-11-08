@@ -8,7 +8,8 @@
     "serve": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate"
+    "generate": "nuxt-ts generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.4.10",
@@ -36,6 +37,7 @@
     "nodemon": "^2.0.4",
     "nuxt-svg-loader": "^1.2.0",
     "prettier": "^1.16.4",
+    "push-dir": "^0.4.1",
     "sass-loader": "^8.0.0"
   },
   "volta": {
