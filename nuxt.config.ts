@@ -89,9 +89,5 @@ export default {
     svgoConfig: {
       plugins: [{ prefixIds: false }]
     }
-  },
-
-  router: {
-    base: '/ShubhankarKG_profile/'
   }
 }
