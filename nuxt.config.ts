@@ -22,7 +22,6 @@ const getDynamicRoutes = async () => {
 
 export default {
   target: 'static',
-  cache: true,
 
   head: {
     titleTemplate: '%s - Shubhankar Gupta',
