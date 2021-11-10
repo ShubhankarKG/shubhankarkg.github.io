@@ -36,6 +36,14 @@
       >
         Contact
       </nuxt-link>
+      <nuxt-link
+        to="/resume"
+        class="c-navigation__item"
+        active-class="c-navigation__item--active"
+        exact
+      >
+        My Resume
+      </nuxt-link>
     </div>
   </nav>
 </template>

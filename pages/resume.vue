@@ -1,9 +1,8 @@
 <template>
   <div class="c-content__center">
-    <s-page-title>Experience</s-page-title>
-    <div class="lead enter-fade-up enter-delay-1" />
-    <div class="enter-fade-up enter-delay-2">
-        <p> Coming soon! </p>
+    <s-page-title>My Resume</s-page-title>
+    <div class="responsive-container">
+        <embed src="/pdf/resume.pdf" width="1440px" height="900px" />
     </div>
     <s-social />
   </div>
@@ -25,7 +24,7 @@ export default defineComponent({
 
   head() {
     return {
-      title: 'Experience'
+      title: 'Resume'
     }
   },
 
