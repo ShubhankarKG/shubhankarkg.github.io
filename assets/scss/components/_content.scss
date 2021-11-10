@@ -48,7 +48,7 @@
   p,
   ul:not([class]),
   ol:not([class]) {
-    color: var(--gray-500);
+    color: white;
     line-height: 2.8rem;
     margin-bottom: 1.6rem;
 
@@ -294,6 +294,17 @@
 }
 
 .c-content__center {
+
+  figure {
+    width: 100%;
+    text-align: center;
+    display: flex;
+  }
+
+  figure > img {
+    margin: auto;
+  }
+
   @media (min-width: 53em) {
     flex: none;
     margin: auto;
@@ -304,5 +315,12 @@
       color: var(--white-200);
     }
 
+    img {
+      text-align: center;
+    }
+
+    figure {
+      width: 100%;
+    }
   }
 }

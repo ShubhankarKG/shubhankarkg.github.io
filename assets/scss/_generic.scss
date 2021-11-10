@@ -63,9 +63,18 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background-color: #233554;
+  background-color: #0a192f;
 
   & > * {
     flex: 1 1 auto;
+  }
+}
+
+@media (min-width: 53em) {
+  #__layout,
+  #__nuxt {
+    background-color: #233554;
+    display: flex;
+    flex-direction: column;
   }
 }

@@ -1,25 +1,5 @@
 const fetch = require('node-fetch')
 
-const getDynamicRoutes = async () => {
-  const { data: articles } = await (
-    await fetch(
-      'https://portfolio.simonwuyts.eu/portfolio/items/articles?fields=*.*'
-    )
-  ).json()
-  const { data: cases } = await (
-    await fetch(
-      'https://portfolio.simonwuyts.eu/portfolio/items/cases?fields=*.*'
-    )
-  ).json()
-  const articleRoutes = articles
-    .filter(article => article.status === 'published')
-    .map(article => `/articles/${article.slug}`)
-  const caseRoutes = cases
-    .filter(item => item.status === 'published')
-    .map(item => `/work/${item.slug}`)
-  return [...articleRoutes, ...caseRoutes]
-}
-
 export default {
   target: 'static',
 
