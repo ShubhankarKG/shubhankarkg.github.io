@@ -2,7 +2,7 @@
   <div class="c-content__center">
     <s-page-title>My Resume</s-page-title>
     <div class="responsive-container">
-        <embed src="/pdf/resume.pdf" width="1440px" height="900px" />
+        <iframe src="/pdf/resume.pdf" width="1440px" height="900px" />
     </div>
     <s-social />
   </div>
