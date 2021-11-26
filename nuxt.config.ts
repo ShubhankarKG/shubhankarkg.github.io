@@ -2,6 +2,7 @@ const fetch = require('node-fetch')
 
 export default {
   target: 'static',
+  cache: true,
 
   head: {
     titleTemplate: '%s - Shubhankar Gupta',
