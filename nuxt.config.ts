@@ -47,7 +47,7 @@ export default {
   css: ['@/assets/scss/main.scss'],
 
   plugins: ['@/plugins/composition-api'],
-  modules: ['nuxt-svg-loader'],
+  modules: ['nuxt-svg-loader', '@nuxtjs/markdownit'],
   buildModules: ['@nuxt/typescript-build'],
 
   build: {
@@ -69,5 +69,15 @@ export default {
     svgoConfig: {
       plugins: [{ prefixIds: false }]
     }
+  },
+
+
+  // This is for displaying rich text content in the frontend.
+  markdownit: {
+    preset: 'default',
+    linkify: true,
+    breaks: true,
+    injected: true,
+    runtime: true
   }
 }

@@ -29,6 +29,14 @@
         Experience
       </nuxt-link>
       <nuxt-link
+        to="/blogs"
+        class="c-navigation__item"
+        active-class="c-navigation__item--active"
+        exact
+      >
+        Blogs
+      </nuxt-link>
+      <nuxt-link
         to="/contact"
         class="c-navigation__item"
         active-class="c-navigation__item--active"

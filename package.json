@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.4.10",
+    "@nuxtjs/markdownit": "^2.0.0",
     "@vue/composition-api": "^0.6.7",
     "axios": "^0.21.2",
     "babel-plugin-prismjs": "^2.0.1",
