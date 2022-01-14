@@ -2,7 +2,6 @@ const fetch = require('node-fetch')
 
 export default {
   target: 'static',
-  cache: true,
 
   head: {
     titleTemplate: '%s - Shubhankar Gupta',
@@ -46,7 +45,7 @@ export default {
   loading: { color: '#fff' },
   css: ['@/assets/scss/main.scss'],
 
-  plugins: ['@/plugins/composition-api'],
+  plugins: ['@/plugins/composition-api', { src: '@/plugins/slide-menu', ssr: false }],
   modules: ['nuxt-svg-loader', '@nuxtjs/markdownit'],
   buildModules: ['@nuxt/typescript-build'],
 
